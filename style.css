@@ -1,0 +1,37 @@
+.jumbotron {
+  padding-top: 6rem;
+  color: #091c32;
+  background-color: #57749c;
+}
+
+.navbar {
+  background-color: #091c32;
+}
+
+h2.subjudul1 {
+  color: #6189c0;
+}
+h2.subjudul2 {
+  color: #0d2642;
+}
+
+.abt {
+  color: #6189c0;
+  text-align: center;
+}
+
+body {
+  background-color: #57749c;
+}
+
+section {
+  padding-top: 4rem;
+}
+
+.btn-primary {
+  color: #091c32;
+  background-color: #6189c0;
+}
+.btn-primary:hover {
+  background-color: #8db5ec;
+}

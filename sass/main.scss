@@ -1,0 +1,16 @@
+// $accordion-color: #091c32;
+$accordion-button-bg: #091c32;
+$accordion-button-color: #6189c0;
+$accordion-button-active-color: #6189c0;
+$accordion-button-active-bg: #091c32;
+$accordion-border-color: #091c32;
+$accordion-bg: #0f325a;
+$list-group-color: #6189c0;
+$list-group-bg: #0f325a;
+$progress-bar-bg: #091c32;
+.btn-primary {
+  color: #091c32;
+  background-color: #091c32;
+}
+// import bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
