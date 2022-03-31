@@ -20,14 +20,14 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow-sm">
       <div class="container">
-        <a class="navbar-brand" href="#">CV Aliet Firdaus Marsyah</a>
+        <a class="navbar-brand" href="#home">CV Aliet Firdaus Marsyah</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              <a class="nav-link active hme" aria-current="page" href="#home">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#about">About</a>
@@ -48,8 +48,9 @@
           <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
           <script>
             $(document).ready(function () {
-              $("a").click(function () {
-                $(this).addClass("active").siblings().removeClass("active");
+              $(".navbar-nav").on("click", "a", function () {
+                $(".navbar-nav a.active").removeClass("active");
+                $(this).addClass("active");
               });
             });
           </script>
