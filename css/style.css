@@ -35,3 +35,13 @@ section {
 .btn-primary:hover {
   background-color: #8db5ec;
 }
+
+.linkig {
+  text-decoration: none; 
+  color: #091c32;
+}
+
+.linkig:hover {
+  text-decoration: none; 
+  color: #163d69;
+}
